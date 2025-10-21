@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <title>Hotel Požega - Kontakt</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f7f4;
+      color: #333;
+      margin: 0;
+    }
+    header {
+      background: linear-gradient(135deg, #8b4513, #a66b3d);
+      color: white;
+      text-align: center;
+      padding: 25px 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      width: 85%;
+      margin: 30px auto;
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    form {
+      background-color: #f3eee8;
+      padding: 20px;
+      border-radius: 15px;
+      width: 350px;
+      margin: 20px auto;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 1px solid #a66b3d;
+      border-radius: 8px;
+    }
+    input[type="submit"] {
+      background-color: #8b4513;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    input[type="submit"]:hover {
+      background-color: #a66b3d;
+    }
+    footer {
+      text-align: center;
+      background-color: #8b4513;
+      color: white;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Kontaktirajte nas</h1>
+  <nav>
+    <a href="index.html">Naslovna</a> |
+    <a href="onama.html">O nama</a> |
+    <a href="kontakt.html">Kontakt</a>
+  </nav>
+</header>
+
+<main>
+  <p>Popunite formu ispod i kontaktiraćemo vas u najkraćem roku.</p>
+
+  <form action="#" method="post">
+    <label>Ime i prezime:</label><br>
+    <input type="text" name="ime" required><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br>
+
+    <label>Poruka:</label><br>
+    <textarea name="poruka" rows="5" required></textarea><br>
+
+    <input type="submit" value="Pošalji poruku">
+  </form>
+</main>
+
+<footer>
+  <p>© 2025 Hotel Požega</p>
+</footer>
+
+</body>
+</html>
